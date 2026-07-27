@@ -1,7 +1,25 @@
 aid: gilmour-space
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gilmour-space.png
 name: Gilmour Space
-description: Gilmour Space is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Gilmour Space Technologies is an Australian venture-backed space company headquartered on
+  the Gold Coast in Queensland, founded in 2012 by brothers Adam and James Gilmour. The company designs
+  and manufactures hybrid-propulsion orbital launch vehicles (the Eris rocket) and satellite platforms
+  (the G-class / ElaraSat bus), and operates the Bowen Orbital Spaceport in North Queensland from which
+  it is pursuing Australia's first sovereign orbital launch. Gilmour Space is backed by investors
+  including Blackbird Ventures, Main Sequence Ventures, 500 Global, Fine Structure Ventures and HESTA.
+  It is added to the API Evangelist network as a company profile; the company operates in aerospace and
+  space launch and does not currently publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/gilmour-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Space
+- Aerospace
+- Rocket Launch
+- Space Launch Vehicles
+- Satellites
+- Manufacturing
+- Deep Tech
+- Australia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gilmour-space-domain-security.yml
 - type: Website
   url: https://gspacetech.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
